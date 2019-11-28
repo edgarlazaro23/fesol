@@ -1,35 +1,33 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-    <div>
-      <b-button-group>
-        <b-button>Button 1</b-button>
-        <b-button>Button 2</b-button>
-        <b-button>Button 3</b-button>
-      </b-button-group>
+    <div id="app">
+        <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+        <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+        <headerComponent/>
+        <footerComponent/>
     </div>
-  </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+// import HelloWorld from "./components/HelloWorld.vue";
+import headerComponent from "./components/Header.vue";
+import footerComponent from "./components/Footer.vue";
 
 export default {
   name: "app",
   components: {
-    HelloWorld
+    // HelloWorld,
+    headerComponent,
+    footerComponent,
   }
 };
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
