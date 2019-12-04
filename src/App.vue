@@ -3,21 +3,21 @@
         <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
         <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
         <headerComponent/>
+        <contentComponent/>
         <footerComponent/>
     </div>
 </template>
 
 <script>
-// import HelloWorld from "./components/HelloWorld.vue";
 import headerComponent from "./components/Header.vue";
 import footerComponent from "./components/Footer.vue";
-
+import contentComponent from "./components/Content.vue";
 export default {
   name: "app",
   components: {
-    // HelloWorld,
     headerComponent,
     footerComponent,
+    contentComponent
   }
 };
 </script>
