@@ -22,6 +22,8 @@ export default {
 };
 </script>
 
-<style lang="sass">
-@import './assets/sass/main'
+<style lang="scss">
+@import 'assets/scss/global.scss';
+@import '~bootstrap/dist/css/bootstrap.css';
+@import '~bootstrap-vue/dist/bootstrap-vue.css';
 </style>

@@ -1,0 +1,60 @@
+@import '../_colors.scss';
+.footer {
+    // background-color: $green-2;
+    .contacto {
+        background-color: $gray-1;
+        border-radius: 8px;
+        margin-bottom: 30px;
+    }
+    .btn-enviar {
+        float: right;
+        font-family: 'Charles Wright';
+        background-color: $black-3;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        &:hover {
+            background-color: $black-2;
+        }
+    }
+    .social {
+        background-color: $black-3;
+        color: $white;
+        text-align: center;
+        padding: 20px;
+    }
+    .social-title {
+        font-family: 'Rajdhani';
+        font-weight: bold;
+    }
+    .social {
+        font-size: 50px;
+        &-instagram {
+            display: inline;
+            margin: 5px;
+            &:hover{
+                color: #c32aa3;
+            }
+        }
+        &-facebook {
+            display: inline;
+            margin: 5px;
+            :hover {
+                color: #3b5998;
+            }
+        }
+    }
+    .legal {
+        padding: 10px;
+        background-color: $black-2;
+        color: $white;
+        text-align: center;
+    }
+    a.hipervinculo {
+        margin-left: 4px;
+        color: $white;
+        &:hover {
+            color: $gray-1;
+            text-decoration: none;
+        }
+    }
+}
